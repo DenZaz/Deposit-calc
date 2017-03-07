@@ -37,14 +37,14 @@ int vich(int sum, int sr, int den)
     den=sum+sum/100*8;                    
     }   
     if(sr<366 && 241<=sr)
-}
+
  den=sum+sum/100*15;              
     } 
-}
+
     return den;
 }
 
-int proverca(int sum, int sr, int den)
+int proverka(int sum, int sr, int den)
 {
 	setlocale(0,"RUS");
     next:
@@ -102,6 +102,19 @@ int proverca(int sum, int sr, int den)
     } 
     }    
 }
+
+
+
+int main()
+{
+    int sum; 
+    int sr;
+    int den=0;
+
+    proverka(sum, sr, den);
+    
+    system("PAUSE");
+    return 0;
 }
 
 
