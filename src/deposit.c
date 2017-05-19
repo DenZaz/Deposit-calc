@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include "deposit.h"
-
+//pr
 int proverka (int sum, int sr)
 {
     int ch;
